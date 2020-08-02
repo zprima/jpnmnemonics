@@ -427,8 +427,8 @@ export const kana = [
     "hiragana": "ま",
     "katakana": "マ",
     "en": "ma",
-    "hiragana_info": "",
-    "katakana_info": "",
+    "hiragana_info": "MAsk man",
+    "katakana_info": "MAnta ray",
     "original_kana_eng": ""
   },
   {
