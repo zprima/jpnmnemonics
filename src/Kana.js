@@ -26,10 +26,15 @@ function Kana() {
     const imageKey = alphabeth === 'hiragana' ? 'h' : 'k';
 
     return (
-      <div className="row">
-        <div className="kanaJpn">{selectedKana[alphabeth]}</div>
-        <div><img src={`/mnemonics/${imageKey}_${currentKana['en']}.png`} alt={selectedKana[alphabeth]} className="kanaImg"></img></div>
-        <div>{currentKana[`${alphabeth}_info`]}</div>
+      <div className="column kanaJPN">
+        <div className="row">
+          <div className="kanaJpn">{selectedKana[alphabeth]}</div>
+          <div className="kanaImg">
+            <img src={`/mnemonics/${imageKey}_${currentKana['en']}.png`} alt={selectedKana[alphabeth]} height="100px"></img>
+          </div>
+        </div>
+
+        <div>{currentKana[`${alphabeth}_info`]} &nbsp;</div>
       </div>
     )
   }

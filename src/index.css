@@ -42,12 +42,15 @@ body {
 }
 
 .nextKana {
-  margin-top: 50px;
 }
 
 .nextKana button{
   font-size: 1rem;
   padding: 10px;
-  background-color: white;
+  background-color: #f1f1f1;
   border: none;
+}
+
+.kanaJPN{
+  margin-bottom: 40px;
 }

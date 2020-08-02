@@ -27,8 +27,8 @@ export const kana = [
     "hiragana": "え",
     "katakana": "エ",
     "en": "e",
-    "hiragana_info": "",
-    "katakana_info": "",
+    "hiragana_info": "Energetic ninja",
+    "katakana_info": "Elevator doors",
     "original_kana_eng": ""
   },
   {
@@ -165,7 +165,7 @@ export const kana = [
     "en": "za",
     "hiragana_info": "",
     "katakana_info": "",
-    "original_kana_eng": ""
+    "original_kana_eng": "sa"
   },
   {
     "hiragana": "じ",
@@ -443,7 +443,7 @@ export const kana = [
     "hiragana": "む",
     "katakana": "ム",
     "en": "mu",
-    "hiragana_info": "",
+    "hiragana_info": "MUuu",
     "katakana_info": "",
     "original_kana_eng": ""
   },
