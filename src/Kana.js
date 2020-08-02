@@ -27,9 +27,9 @@ function Kana() {
 
     return (
       <div className="row">
-        <div>{selectedKana[alphabeth]}</div>
+        <div className="kanaJpn">{selectedKana[alphabeth]}</div>
         <div><img src={`/mnemonics/${imageKey}_${currentKana['en']}.png`} alt={selectedKana[alphabeth]} className="kanaImg"></img></div>
-        <div>{currentKana.hiragana_info}</div>
+        <div>{currentKana[`${alphabeth}_info`]}</div>
       </div>
     )
   }
@@ -44,15 +44,19 @@ function Kana() {
   }
 
   return (
-    <div className="column">
-      <div className="row">
-        <div>{selectedKana['en']}</div>
-      </div>
+    <div className="content">
+      <div className="column">
+        <div className="row">
+          <div className="kanaEn">{selectedKana['en']}</div>
+        </div>
 
-      {drawKanas()}
+        {drawKanas()}
 
-      <div className="row">
-        <button onClick={() => refreshKana()}>Next</button>
+        <div className="row">
+          <div className="nextKana">
+            <button onClick={() => refreshKana()}>Next</button>
+          </div>
+        </div>
       </div>
     </div>
   );
