@@ -85,7 +85,7 @@ export const kana = [
     "en": "ga",
     "hiragana_info": "",
     "katakana_info": "",
-    "original_kana_eng": ""
+    "original_kana_eng": "ka"
   },
   {
     "hiragana": "ぎ",
@@ -101,7 +101,7 @@ export const kana = [
     "en": "gu",
     "hiragana_info": "",
     "katakana_info": "",
-    "original_kana_eng": ""
+    "original_kana_eng": "ku"
   },
   {
     "hiragana": "げ",
@@ -109,7 +109,7 @@ export const kana = [
     "en": "ge",
     "hiragana_info": "",
     "katakana_info": "",
-    "original_kana_eng": ""
+    "original_kana_eng": "ke"
   },
   {
     "hiragana": "ご",
@@ -117,7 +117,7 @@ export const kana = [
     "en": "go",
     "hiragana_info": "",
     "katakana_info": "",
-    "original_kana_eng": ""
+    "original_kana_eng": "ko"
   },
   {
     "hiragana": "さ",
@@ -181,7 +181,7 @@ export const kana = [
     "en": "zu",
     "hiragana_info": "",
     "katakana_info": "",
-    "original_kana_eng": ""
+    "original_kana_eng": "su"
   },
   {
     "hiragana": "ぜ",
@@ -245,7 +245,7 @@ export const kana = [
     "en": "da",
     "hiragana_info": "",
     "katakana_info": "",
-    "original_kana_eng": ""
+    "original_kana_eng": "ta"
   },
   {
     "hiragana": "で",
@@ -253,7 +253,7 @@ export const kana = [
     "en": "de",
     "hiragana_info": "",
     "katakana_info": "",
-    "original_kana_eng": ""
+    "original_kana_eng": "te"
   },
   {
     "hiragana": "ど",
@@ -349,7 +349,7 @@ export const kana = [
     "en": "ba",
     "hiragana_info": "",
     "katakana_info": "",
-    "original_kana_eng": ""
+    "original_kana_eng": "ha"
   },
   {
     "hiragana": "び",
@@ -357,7 +357,7 @@ export const kana = [
     "en": "bi",
     "hiragana_info": "",
     "katakana_info": "",
-    "original_kana_eng": ""
+    "original_kana_eng": "hi"
   },
   {
     "hiragana": "ぶ",
@@ -365,7 +365,7 @@ export const kana = [
     "en": "bu",
     "hiragana_info": "",
     "katakana_info": "",
-    "original_kana_eng": ""
+    "original_kana_eng": "fu"
   },
   {
     "hiragana": "べ",
@@ -373,7 +373,7 @@ export const kana = [
     "en": "be",
     "hiragana_info": "",
     "katakana_info": "",
-    "original_kana_eng": ""
+    "original_kana_eng": "he"
   },
   {
     "hiragana": "ぼ",
@@ -381,7 +381,7 @@ export const kana = [
     "en": "bo",
     "hiragana_info": "",
     "katakana_info": "",
-    "original_kana_eng": ""
+    "original_kana_eng": "ho"
   },
   {
     "hiragana": "ぱ",
@@ -389,7 +389,7 @@ export const kana = [
     "en": "pa",
     "hiragana_info": "",
     "katakana_info": "",
-    "original_kana_eng": ""
+    "original_kana_eng": "ha"
   },
   {
     "hiragana": "ぴ",
@@ -405,7 +405,7 @@ export const kana = [
     "en": "pu",
     "hiragana_info": "",
     "katakana_info": "",
-    "original_kana_eng": ""
+    "original_kana_eng": "fu"
   },
   {
     "hiragana": "ぺ",

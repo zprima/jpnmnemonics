@@ -15,31 +15,32 @@ function Kana() {
     })
   }
 
-  const drawKana = (currentKana) => {
-    return (
-      <React.Fragment>
-        <div className="row">
-          <div>{currentKana['hiragana']}</div>
-          <div><img src={`/mnemonics/h_${currentKana['en']}.png`} alt={currentKana['hiragana']} className="kanaImg"></img></div>
-          <div>{currentKana.hiragana_info}</div>
-        </div>
+  const drawKana = (alphabeth) => {
+    let originalKana = null;
+    if (selectedKana.original_kana_eng !== ''){
+      originalKana = findOriginalKana(selectedKana.original_kana_eng);
+    }
 
-        <div className="row">
-          <div>{currentKana['katakana']}</div>
-          <div><img src={`/mnemonics/k_${currentKana['en']}.png`} alt={currentKana['katakana']} className="kanaImg"></img></div>
-          <div>{currentKana.katakana_info}</div>
-        </div>
-      </React.Fragment>
+    const currentKana = originalKana || selectedKana;
+
+    const imageKey = alphabeth === 'hiragana' ? 'h' : 'k';
+
+    return (
+      <div className="row">
+        <div>{selectedKana[alphabeth]}</div>
+        <div><img src={`/mnemonics/${imageKey}_${currentKana['en']}.png`} alt={selectedKana[alphabeth]} className="kanaImg"></img></div>
+        <div>{currentKana.hiragana_info}</div>
+      </div>
     )
   }
 
   const drawKanas = () => {
-    if (selectedKana.original_kana_eng !== ''){
-      const originalKana = findOriginalKana(selectedKana.original_kana_eng);
-      return drawKana(originalKana);
-    }
-
-    return drawKana(selectedKana);
+    return (
+      <React.Fragment>
+        {drawKana('hiragana')}
+        {drawKana('katakana')}
+      </React.Fragment>
+    )
   }
 
   return (
