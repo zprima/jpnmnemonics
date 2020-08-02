@@ -22,7 +22,7 @@ function App() {
 
         <div className="row">
           <div className="nextKana">
-            <button onClick={() => refreshKana()}>Next</button>
+            <button onClick={() => refreshKana()}>Random Kana</button>
           </div>
         </div>
       </div>
