@@ -11,7 +11,7 @@ export const kana = [
     "hiragana": "う",
     "katakana": "ウ",
     "en": "u",
-    "hiragana_info": "",
+    "hiragana_info": "uu boxer hit",
     "katakana_info": "",
     "original_kana_eng": ""
   },
@@ -19,8 +19,8 @@ export const kana = [
     "hiragana": "い",
     "katakana": "イ",
     "en": "i",
-    "hiragana_info": "",
-    "katakana_info": "",
+    "hiragana_info": "ii",
+    "katakana_info": "Igel",
     "original_kana_eng": ""
   },
   {
@@ -35,8 +35,8 @@ export const kana = [
     "hiragana": "お",
     "katakana": "オ",
     "en": "o",
-    "hiragana_info": "",
-    "katakana_info": "",
+    "hiragana_info": "ufO",
+    "katakana_info": "Opera singer",
     "original_kana_eng": ""
   },
   {
@@ -51,7 +51,7 @@ export const kana = [
     "hiragana": "き",
     "katakana": "キ",
     "en": "ki",
-    "hiragana_info": "",
+    "hiragana_info": "KIy",
     "katakana_info": "",
     "original_kana_eng": ""
   },
@@ -59,16 +59,16 @@ export const kana = [
     "hiragana": "く",
     "katakana": "ク",
     "en": "ku",
-    "hiragana_info": "",
-    "katakana_info": "",
+    "hiragana_info": "KUku",
+    "katakana_info": "KUkavica krilo",
     "original_kana_eng": ""
   },
   {
     "hiragana": "け",
     "katakana": "ケ",
     "en": "ke",
-    "hiragana_info": "",
-    "katakana_info": "",
+    "hiragana_info": "KEg",
+    "katakana_info": "K sidEway",
     "original_kana_eng": ""
   },
   {
@@ -131,23 +131,23 @@ export const kana = [
     "hiragana": "し",
     "katakana": "シ",
     "en": "shi",
-    "hiragana_info": "",
-    "katakana_info": "",
+    "hiragana_info": "fiSHIng hook",
+    "katakana_info": "SHIp sunking",
     "original_kana_eng": ""
   },
   {
     "hiragana": "す",
     "katakana": "ス",
     "en": "su",
-    "hiragana_info": "",
-    "katakana_info": "",
+    "hiragana_info": "SU",
+    "katakana_info": "SUper skiier",
     "original_kana_eng": ""
   },
   {
     "hiragana": "せ",
     "katakana": "セ",
     "en": "se",
-    "hiragana_info": "",
+    "hiragana_info": "SEy something",
     "katakana_info": "",
     "original_kana_eng": ""
   },
@@ -203,16 +203,16 @@ export const kana = [
     "hiragana": "た",
     "katakana": "タ",
     "en": "ta",
-    "hiragana_info": "",
-    "katakana_info": "",
+    "hiragana_info": "Ta",
+    "katakana_info": "Human holding TAblet",
     "original_kana_eng": ""
   },
   {
     "hiragana": "ち",
     "katakana": "チ",
     "en": "chi",
-    "hiragana_info": "",
-    "katakana_info": "",
+    "hiragana_info": "angry CHIrleader",
+    "katakana_info": "CHIken",
     "original_kana_eng": ""
   },
   {
@@ -235,8 +235,8 @@ export const kana = [
     "hiragana": "と",
     "katakana": "ト",
     "en": "to",
-    "hiragana_info": "",
-    "katakana_info": "",
+    "hiragana_info": "TOrnado",
+    "katakana_info": "TOtem pole",
     "original_kana_eng": ""
   },
   {
@@ -291,8 +291,8 @@ export const kana = [
     "hiragana": "ね",
     "katakana": "ネ",
     "en": "ne",
-    "hiragana_info": "",
-    "katakana_info": "",
+    "hiragana_info": "sNEil",
+    "katakana_info": "NEst in tree",
     "original_kana_eng": ""
   },
   {
@@ -307,8 +307,8 @@ export const kana = [
     "hiragana": "は",
     "katakana": "ハ",
     "en": "ha",
-    "hiragana_info": "",
-    "katakana_info": "",
+    "hiragana_info": "Ha",
+    "katakana_info": "House roof",
     "original_kana_eng": ""
   },
   {
@@ -323,8 +323,8 @@ export const kana = [
     "hiragana": "ふ",
     "katakana": "フ",
     "en": "fu",
-    "hiragana_info": "",
-    "katakana_info": "",
+    "hiragana_info": "mt. FUji",
+    "katakana_info": "tip of FUt",
     "original_kana_eng": ""
   },
   {
@@ -339,8 +339,8 @@ export const kana = [
     "hiragana": "ほ",
     "katakana": "ホ",
     "en": "ho",
-    "hiragana_info": "",
-    "katakana_info": "",
+    "hiragana_info": "HOrse face",
+    "katakana_info": "HOly cross",
     "original_kana_eng": ""
   },
   {
@@ -451,8 +451,8 @@ export const kana = [
     "hiragana": "め",
     "katakana": "メ",
     "en": "me",
-    "hiragana_info": "",
-    "katakana_info": "",
+    "hiragana_info": "noodles are a MEss",
+    "katakana_info": "MEil",
     "original_kana_eng": ""
   },
   {
@@ -467,7 +467,7 @@ export const kana = [
     "hiragana": "や",
     "katakana": "ヤ",
     "en": "ya",
-    "hiragana_info": "",
+    "hiragana_info": "YAk",
     "katakana_info": "",
     "original_kana_eng": ""
   },
@@ -483,8 +483,8 @@ export const kana = [
     "hiragana": "よ",
     "katakana": "ヨ",
     "en": "yo",
-    "hiragana_info": "",
-    "katakana_info": "",
+    "hiragana_info": "YOyo",
+    "katakana_info": "YOke",
     "original_kana_eng": ""
   },
   {
@@ -507,8 +507,8 @@ export const kana = [
     "hiragana": "る",
     "katakana": "ル",
     "en": "ru",
-    "hiragana_info": "",
-    "katakana_info": "",
+    "hiragana_info": "holding RUby in hand",
+    "katakana_info": "RUts of tree",
     "original_kana_eng": ""
   },
   {
