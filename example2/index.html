@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kana</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <div>romaji: <span id="romaji">a</span></div>
+
+    <div class="hints">
+      <div><span id="h_tip">Apple</span>&nbsp;</div>
+      <div><span id="k_tip">Axe</span>&nbsp;</div>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="circle"></div>
+    <div id="hiragana" class="kana">あ</div>
+    <div id="katakana" class="kana">ア</div>
+  </div>
+
+  <div class="next">
+    <button onclick="nextRandomKana();">Next</button>
+  </div>
+
+
+
+  <script src="app.js"></script>
+</body>
+</html>

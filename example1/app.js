@@ -579,8 +579,8 @@ function nextRandomKana() {
 
   kiEn.innerText = newKana.en;
 
-  document.getElementById("img_h").src = `/mnemonics/h_${originalKana.en}.png`;
-  document.getElementById("img_k").src = `/mnemonics/k_${originalKana.en}.png`;
+  document.getElementById("img_h").src = `/example1/mnemonics/h_${originalKana.en}.png`;
+  document.getElementById("img_k").src = `/example1/mnemonics/k_${originalKana.en}.png`;
 
 
 }

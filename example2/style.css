@@ -1,0 +1,65 @@
+body{
+  font-family: 'Sawarabi Mincho', sans-serif;
+  margin: 0;
+  font-size: 12px;
+  height: 100vh;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+* {
+  box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+.hints{
+  font-size: 0.7rem;
+}
+
+button{
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  border-bottom: 1px solid black;
+  padding: 5px 10px;
+  outline-width: 0;
+}
+button:hover{
+  border-bottom-color: red;
+}
+
+.content{
+  display: flex;
+
+  flex-direction: column;
+  position: relative;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.next{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.kana {
+  position: relative;
+  font-size: 12rem;
+}
+
+.circle{
+  width: 25rem;
+  height: 25rem;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+}
