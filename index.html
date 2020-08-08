@@ -3,9 +3,50 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>JPN - Mnemonics</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Recursive&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-  This will work
+
+  <div class="grid">
+    <div class="gHeader">
+      <div>Learn KANA</div>
+      <div>GitHub</div>
+    </div>
+
+      <div class="gContentKanaDisplay">
+        <div class="circle"></div>
+        <div class="kd_hiragana">あ</div>
+        <div class="kd_katakana">ア</div>
+      </div>
+
+      <div class="gContentKanaInfo">
+        <div class="title"><b>Kana Info</b></div>
+        <div>Hiragana: <span class="ki_hiragana">あ</span></div>
+        <div>Katakana: <span class="ki_katakana">ア</span></div>
+        <div>Romaji: <span class="ki_en">a</span></div>
+
+        <div class="mnemonic">
+          <div class="m_hiragana"><img id="img_h" src="/mnemonics/h_a.png"></div>
+          <div class="m_katakana"><img id="img_k" src="/mnemonics/k_a.png"></div>
+        </div>
+
+        <button class="btn" onclick="nextRandomKana();">Next Random</button>
+      </div>
+
+
+    <div class="gFooter">
+    </div>
+  </div>
+
+  <!-- header
+  content
+    - left
+    - right
+  footer -->
+
+  <script src="app.js"></script>
 </body>
 </html>
